@@ -138,6 +138,7 @@ p{
     
     #a,#b,#c,#d{
         margin-right: 50px;
+        margin-top: 7%;
         float: right;
         background-color: aqua; 
         background-size: 80%; 
