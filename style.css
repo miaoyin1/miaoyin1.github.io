@@ -163,6 +163,12 @@ p{
         font-weight: bold;
         margin-left: 40%;
     }
+
+    .result{
+        padding-top: 30%;
+        margin-left: 30%;
+        margin-top: 60%;
+    }
 }
 
 @media only screen and (max-width:321px) {
