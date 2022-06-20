@@ -46,13 +46,18 @@ function calculate(n){
         document.getElementById("d").innerHTML = value4;
     }
     
-    if (value1 == 10 && value2 == 10 && value3 == 10 && value4 == 10) {
+    if (value1 == 1 && value2 == 1 && value3 == 1 && value4 == 1) {
         document.getElementById("link").style.visibility = 'visible';
     }
 }
 
-const myTimeout = setTimeout(myGreeting, 3000);
+const myTimeout = setTimeout(myGreeting, 368000);
+const myTimeout2 = setTimeout(myGreeting2, 2760000);
 
 function myGreeting() {
-    document.getElementById("next").style.visibility = 'visible';
+    document.getElementById("nextVideo").style.visibility = 'visible';
+}
+
+function myGreeting2() {
+    document.getElementById("nextHome").style.visibility = 'visible';
 }
