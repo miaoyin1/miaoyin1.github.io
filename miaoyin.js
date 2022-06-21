@@ -46,7 +46,7 @@ function calculate(n){
         document.getElementById("d").innerHTML = value4;
     }
     
-    if (value1 == 1 && value2 == 1 && value3 == 1 && value4 == 1) {
+    if (value1 == 10 && value2 == 10 && value3 == 10 && value4 == 10) {
         document.getElementById("link").style.visibility = 'visible';
     }
 }
