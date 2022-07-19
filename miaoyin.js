@@ -52,7 +52,7 @@ function calculate(n){
 }
 
 const myTimeout = setTimeout(myGreeting, 368000);
-const myTimeout2 = setTimeout(myGreeting2, 2760000);
+const myTimeout2 = setTimeout(myGreeting2, 600000);
 
 function myGreeting() {
     document.getElementById("nextVideo").style.visibility = 'visible';
